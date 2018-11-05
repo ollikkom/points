@@ -76,6 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (xCoordsArray.length > 1) {
                 for (var i = 0; i < xCoordsArray.length - 1; i++) {
                     ctx.fillRect(xCoordsArray[i], y, xCoordsArray[i + 1], 1);
+                    ++i;
                 }
             }
         });
